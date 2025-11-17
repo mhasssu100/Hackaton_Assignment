@@ -178,7 +178,7 @@ body{
     }
 .brandlogo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 100px auto;
 }   
 .brandlogo img{
@@ -273,4 +273,28 @@ body{
   margin: 0;
   font-size: 14px;
   color: #6b7280;
+}
+/* Popular Section */
+.popbtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto;
+
+
+}
+.popbtn .dealbtn{
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c4d5e7;
+    color: var(--primary);
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.popbtn .pophead{
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
