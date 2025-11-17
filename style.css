@@ -117,3 +117,160 @@ body{
     justify-content: center;
     font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
+
+    .cards-container {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+
+    .card {
+      background-color: #f5f8ff;
+      border-radius: 12px;
+      border: none;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-icon img{
+      background-color: #ffdd57;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 15px;
+      padding: 10px;
+      background-color: #e0ebff;
+      display: flex;
+      align-items: center;
+      border-radius: 12px;
+
+      font-size: 24px;
+      color: #4a69ff;
+    }
+.card-icon img {
+    width: 50px;        
+    height: 50px;
+    display: block;
+    object-fit: contain;
+}
+    .card h3 {
+      margin: 0;
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #111827;
+      font-weight: 600;
+      font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 14px;
+      color: #6b7280;
+    }
+.brandlogo{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}   
+.brandlogo img{
+  width: 100px; 
+  height: auto; 
+  object-fit: contain 
+}
+/* Rental Deals Section */
+.rental-deals, 
+.rental-deals * {
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial !important;
+}
+
+.rental-deals {
+  padding: 80px 0;
+  background: #fff;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.container .rental-deals-inner{
+    
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+
+
+}
+
+.rental-deals-inner {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.rental-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.rental-left .rental-car {
+  max-width: 100%;
+  height: auto;
+}
+
+.rental-right {
+  flex: 1;
+}
+
+.rental-right .small-label {
+  display: inline-block;
+  background-color: #e0ebff;
+  color: #1572d3;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.rental-right h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+  color: #111827;
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.feature {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #e0ebff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #1572d3;
+  flex-shrink: 0;
+}
+
+.feature-text h4 {
+  margin: 0 0 4px;
+  font-size: 16px;
+  color: #111827;
+}
+
+.feature-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
